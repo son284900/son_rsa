@@ -1,0 +1,48 @@
+{
+    "env": {
+        "es6": true,
+        "node": true,
+        "jest/globals": true
+    },
+    "extends": [
+        "eslint:recommended",
+        "plugin:vue/strongly-recommended"
+    ],
+    "globals": {
+        "Atomics": "readonly",
+        "SharedArrayBuffer": "readonly"
+    },
+    "parserOptions": {
+        "ecmaVersion": 2018,
+        "sourceType": "module",
+        "parser": "babel-eslint"
+    },
+    "plugins": [
+        "vue",
+        "jest"
+    ],
+    "rules": {
+        "import/no-unresolved": "off",
+        "no-param-reassign": 0,
+        "import/no-extraneous-dependencies": 0,
+        "indent": ["error", 4, {
+            "CallExpression": {
+                "arguments": "first"
+            },
+            "FunctionDeclaration": {
+                "parameters": "first"
+            },
+            "FunctionExpression": {
+                "parameters": "first"
+            },
+            "MemberExpression": 1,
+            "ObjectExpression": 1,
+            "SwitchCase": 1
+        }],
+        "jest/no-disabled-tests": "warn",
+        "jest/no-focused-tests": "error",
+        "jest/no-identical-title": "error",
+        "jest/prefer-to-have-length": "warn",
+        "jest/valid-expect": "error"
+    }
+}

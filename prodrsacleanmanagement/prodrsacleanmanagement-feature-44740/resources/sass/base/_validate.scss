@@ -1,0 +1,10 @@
+/*
+ * Vuelidate messages style definition.
+ */
+.error-message {
+    display: flex;
+    color: $color-text-error;
+    div {
+        vertical-align: top;
+    }
+}

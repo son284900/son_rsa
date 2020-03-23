@@ -1,0 +1,14 @@
+/node_modules
+/public/*
+/storage/*
+/vendor
+.env
+*.cache
+Homestead.json
+Homestead.yaml
+*.log
+.idea
+package-lock.json
+mix-manifest.json
+composer.lock
+coverage/

@@ -1,0 +1,7 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Example is a Vue instance 1`] = `
+<button>
+  ButtonName
+</button>
+`;

@@ -1,0 +1,21 @@
+
+/* サブジェクト */
+.ui-autocomplete {
+	top: 60px;
+	li {
+		a {
+			display: block;
+			padding: 10px;
+		}
+	}
+}
+.ui-state-hover,
+.ui-widget-content .ui-state-hover,
+.ui-widget-header .ui-state-hover,
+.ui-state-focus,
+.ui-widget-content .ui-state-focus,
+.ui-widget-header .ui-state-focus {
+	border: 1px solid #fff;
+	background: $color-base-background;
+	color: $color-base;
+}

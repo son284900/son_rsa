@@ -1,0 +1,55 @@
+// Body
+$body-bg: #f8fafc;
+
+// Typography
+$font-family-sans-serif: 'Nunito', sans-serif;
+$font-size-base: 0.9rem;
+$line-height-base: 1.6;
+
+// Colors
+$blue: #3490dc;
+$indigo: #6574cd;
+$purple: #9561e2;
+$pink: #f66d9b;
+$red: #e3342f;
+$orange: #f6993f;
+$yellow: #ffed4a;
+$green: #38c172;
+$teal: #4dc0b5;
+$cyan: #6cb2eb;
+
+// 色
+/*----------------------------------------------------------------------------*/
+// 共通の色
+$color-base: #5A6B81;
+$color-base-gray: #A0A9B9;
+$color-base-background: #F8F9FD;
+$color-base-content: #fff;
+
+// 文字
+$color-text:$color-base;
+$color-text-error:#D05151;
+
+// アイコン
+$color-icon: $color-base-gray;
+
+
+// ボタン
+$color-btn-text:#fff;
+$color-btn-background:#376CB1;
+$color-btn-inactive-text:#A5A8B4;
+$color-btn-inactive-background:#EEEEEE;
+
+// フォーム
+$color-form-text:$color-base;
+$color-form-placeholder-text:#A0A9B9;
+$color-form-placeholder-text-error:#F0A2A2;
+$color-form-background:#FCFCFC;
+$color-form-background-error:#FFE3E3;
+$color-form-border:#DDDDDD;
+$color-form-border-error:#F0A2A2;
+
+// フォント
+$font-gothic: 'Noto Sans Japanese',   sans-serif;
+$font-mincho: 'ヒラギノ明朝 ProN W3', 'HiraMinProN-W3', '游明朝', 'Yu Mincho', YuMincho, 'ＭＳ Ｐ明朝', 'MS PMincho', 'メイリオ', Meiryo, Verdana, Droid Sans, serif;
+
