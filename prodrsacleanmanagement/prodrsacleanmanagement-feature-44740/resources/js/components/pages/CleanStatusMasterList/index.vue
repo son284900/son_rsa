@@ -33,7 +33,8 @@
                 <v-container>
                   <v-row>
                     <v-col cols="12" sm="6" md="4">
-                      <v-text-field v-mask="'#####'" :counter= 5 v-model="editedItem.codestatus" label="Code tình trạng VS"></v-text-field>
+                      <v-text-field v-if="editedIndex > -1" readonly="" v-mask="'#####'" :counter= 5 v-model="editedItem.codestatus" label="Code tình trạng VS"></v-text-field>
+                      <v-text-field v-else v-mask="'#####'" :counter= 5 v-model="editedItem.codestatus" label="Code tình trạng VS"></v-text-field>
                     </v-col>
                     <v-col cols="12" sm="6" md="4">
                       <v-text-field :counter= 15 v-model="editedItem.namestatus" label="Tên tình trạng VS"></v-text-field>
